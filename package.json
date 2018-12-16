@@ -1,0 +1,19 @@
+{
+  "name": "exraspi",
+  "version": "1.0.0",
+  "description": "Express backend running on a Raspberry Pi to control a cocktail machine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Kristoffer Ek",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "raspi-serial": "1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  }
+}
